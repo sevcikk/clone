@@ -1,0 +1,141 @@
+.stop-scrolling {
+    height: 100%;
+    overflow: hidden;
+}
+
+/*comment*/
+.comm {
+    display: none;
+}
+.commentSection {
+    display: none;
+}
+
+.comments {
+    display: none;
+}
+
+/*close btn*/
+.closeBtn {
+    color: white;
+    position: fixed;
+    top: 18px;
+    right: 18px;
+    font-size: 40px;
+    transform: rotate(45deg);
+    cursor: pointer;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight:100;
+}
+
+/*background*/
+#overlay {
+    display: none;
+    position: fixed;
+    background-color: rgba(63, 63, 63, 0.41);
+    top: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 1000px; 
+    padding-top: 5%;
+}
+ 
+#squareOverlay {
+     display: block;
+     width: 50%;
+     height: 85%;
+     margin: auto;
+     background-color: white;
+     padding-top: 10px;
+     padding-bottom: 5px;
+     border-radius: 10px;
+}
+ 
+/*top bar*/
+.topBarOverlay1 {
+     display: flex;
+     height: max-content;
+     padding-left: 10px;
+}
+ 
+.smallImg {
+     height: 40px;
+     width: 40px;
+     border-radius: 50%;
+}
+
+.topBarOverlay1 h2 {
+     margin: 10px;
+}
+ 
+/*img*/
+.overlayImg {
+     display: flex;
+     width: 100%;
+     margin: auto;
+     padding-top: 10px;
+     padding-bottom: 10px;
+}
+ 
+/*icon*/
+.iconOverlay {
+     width: 95%;
+     height: 40px;
+     fill: rgba(0, 0, 0, 0.869);
+     padding: 8px;
+     display: flex;
+     justify-content: space-between;
+     column-count: 2;
+}
+
+.iconOverlay svg {
+    padding: 7px;
+}
+
+.animateHeart {
+    animation:pulse 1s;
+}
+
+@keyframes pulse {
+    10% {transform: scale(1.1)}
+}
+
+.iconOverlay svg:hover {
+    fill: rgb(111, 111, 111);
+}
+
+.iconOverlayOne {
+    display: flex;
+}
+
+.iconOverlayTwo {
+    display: flex;
+}
+
+#like {
+    padding-left: 15px;
+    width: 20px;
+    border: none;
+    outline:none;
+    pointer-events: none;
+    font-size: 1.2em;
+}
+
+/*arrow*/
+.overlayArrow {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 40%;
+    fill: white;
+    column-count: 2;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.overlayArrow svg {
+    padding: 2%;
+    width: 30px;
+}
+
+

@@ -1,0 +1,142 @@
+h2 {
+    font-size: 1.1em;
+}
+
+svg , img{
+    cursor: pointer;
+}
+
+svg:hover{
+    fill: rgba(142, 142, 142, 0.863);
+}
+
+.person {
+    height: max-content;
+    width: 100%;
+    display: flex;
+}
+
+/*person A*/
+.personA{
+    width: 40%;
+    padding: 10px;
+    padding-left: 25px;
+}
+
+.name {
+    font-size: 1.6em;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+
+.mainImg {
+    margin-top: 10px;
+    width: 50%;
+    border-radius: 50%;
+}
+
+/*person B*/
+.personB {
+    width: 60%;
+    text-align: center;
+    padding: 10px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+
+.b1 {
+    font-size: 0.8em;
+    column-count: 3;
+    
+}
+.b2 {
+    column-count: 3;
+
+}
+
+#follow {
+    font-family: 'Inter', sans-serif;
+    font-size: 1em;
+    text-align: center;
+    padding-bottom: 20px;
+    width: 70px;
+    border: none;
+    outline:none;
+    pointer-events: none;
+}
+
+/*buttons*/
+#followBtn {
+    color: white;
+    background-color: rgb(4, 150, 255);
+    width: 130px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#messageBtn {
+    background-color: rgb(255, 255, 255);
+    width: 90px;
+    height: 30px;
+    font-weight: bold;
+    border-radius: 7px;
+    border: 1px solid rgba(0, 0, 0, 0.53);
+    cursor: pointer;
+}
+
+/*bio*/
+.bio {
+    font-size: 0.9em;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.bio p {
+    padding: 10px;
+    padding-left: 25px;
+    width: 50%;
+    color: rgba(0, 0, 0, 0.814);
+}
+
+/*bottom bar*/
+.bottomBar {
+    height: max-content;
+    width: 100%;
+    display: flex;
+    column-count: 6;
+    justify-content: space-between;
+}
+
+.bottomBar svg {
+    fill: rgba(24, 24, 24, 0.884);
+    margin: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 25px;
+}
+
+.bottomBar > svg:hover{
+    fill: rgba(142, 142, 142, 0.863);
+}
+
+/*images*/
+.images {
+    text-decoration: overline;
+    height: max-content;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-count: 3;
+    justify-content: space-between;
+    gap: 8px;
+}
+
+.images img {
+    width: 32%;
+}
+
+

@@ -1,0 +1,18 @@
+footer {
+    font-size: 0.8em;
+    margin-top: 100px;
+    margin-bottom: 80px;
+    height: max-content;
+    width: 100%;    
+    line-height: 2;
+    word-spacing: 10px;
+    text-align: center;
+    color: rgba(27, 27, 27, 0.846);
+}
+
+.line {
+    display: flex;
+    height: 1px;
+    max-width: 100%;
+    background: rgba(154, 154, 154, 0.771);
+}
